@@ -1,4 +1,3 @@
-
 {
   "name": "whatsapp-bot-hans-md",
   "version": "1.0.0",
@@ -8,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^4.4.0",  // Version mise à jour
+    "@whiskeysockets/baileys": "^6.6.1",  // Version mise à jour
     "ytdl-core": "^4.10.0",
     "axios": "^1.5.0",
     "fs": "0.0.1-security",
