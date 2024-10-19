@@ -1,4 +1,4 @@
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
+const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('whiskeysockets/baileys');
 const ytdl = require('ytdl-core');
 const axios = require('axios');
 const fs = require('fs');
@@ -178,6 +178,7 @@ async function handleCommand(client, msg, commandName, args) {
 11. .chatgpt [prompt] - Demander à ChatGPT
 12. .suno [prompt] - Générer un son avec Suno
 13. .menu - Voir ce menu`;
+
             await client.sendMessage(msg.key.remoteJid, { text: menu });
             break;
         default:
